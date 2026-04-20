@@ -6,6 +6,8 @@ const s3 = new AWS.S3({
         region: process.env.AWS_REGION
 });
 
+//#endregion 
+
 async function uploadToS3(file) {
 
         const params = {
